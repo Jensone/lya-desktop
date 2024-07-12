@@ -1,5 +1,6 @@
 // Importation des modules ElectronJS
 const { app, BrowserWindow } = require('electron');
+const path = require('node:path');
 
 const createWindow = () => {
     const win = new BrowserWindow({
